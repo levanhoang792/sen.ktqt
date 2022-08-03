@@ -135,7 +135,7 @@
             }
             ctx.closePath();
             ctx.fill();
-            ctx.restore();
+            // ctx.restore();
         },
         drawCirle: function() {
             var ctx = this.tree.ctx, cirle = this.cirle;
@@ -150,7 +150,7 @@
     	    ctx.arc(0, 0, radius, 0, 2 * Math.PI);
             ctx.closePath();
             ctx.fill();
-            ctx.restore();
+            // ctx.restore();
         },
         drawText: function() {
             var ctx = this.tree.ctx, heart = this.heart;
@@ -170,7 +170,7 @@
             ctx.scale(0.75, 0.75);
             ctx.font = "12px 微软雅黑,Verdana";
             ctx.fillText("Sên, Click here!", 23, 10);
-            ctx.restore();
+            // ctx.restore();
         },
         clear: function() {
             var ctx = this.tree.ctx, cirle = this.cirle;
@@ -209,7 +209,7 @@
     	    ctx.lineTo(len, 0);
     	    ctx.lineTo(-len, 0);
             ctx.stroke();
-            ctx.restore();
+            // ctx.restore();
 
             if (this.length < this.width) {
                 this.length += this.speed;
@@ -287,7 +287,7 @@
 
             ctx.save();
             ctx.putImageData(image, point.x, point.y);
-        	ctx.restore();
+        	// ctx.restore();
         },
 
         addBranch: function(branch) {
@@ -396,7 +396,7 @@
             ctx.save();
             ctx.clearRect(point.x, point.y, width, height);
             ctx.putImageData(image, i, j);
-        	ctx.restore();
+        	// ctx.restore();
 
             rec.point = new Point(i, j);
             rec.speed = speed * 0.95;
@@ -464,7 +464,7 @@
         	ctx.arc(p.x, p.y, s.radius, 0, 2 * Math.PI);
         	ctx.closePath();
         	ctx.fill();
-        	ctx.restore();
+        	// ctx.restore();
         }
     }
 
@@ -509,7 +509,7 @@
             }
             ctx.closePath();
             ctx.fill();
-            ctx.restore();
+            // ctx.restore();
         },
         jump: function() {
             var s = this, height = s.tree.height;
