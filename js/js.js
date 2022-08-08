@@ -14,6 +14,7 @@ $(document).ready(function () {
         <a href="index.html" class="btn btn-bir">04/08/2022</a>
         <a href="05082022.html" class="btn btn-bir">05/08/2022</a>
         <a href="06082022.html" class="btn btn-bir">06/08/2022</a>
+        <a href="08082022.html" class="btn btn-bir">08/08/2022</a>
     `;
 
     $("div.buttons").html(buttonsMenu);
