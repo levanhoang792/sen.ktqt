@@ -12,9 +12,10 @@ fetch(apiUrl).then(response => {
 $(document).ready(function () {
     const buttonsMenu = `
         <a href="index.html" class="btn btn-bir">04/08/2022</a>
-        <a href="05082022.html" class="btn btn-bir">05/08/2022</a>
-        <a href="06082022.html" class="btn btn-bir">06/08/2022</a>
-        <a href="08082022.html" class="btn btn-bir">08/08/2022</a>
+        <a href="20220805.html" class="btn btn-bir">05/08/2022</a>
+        <a href="20220806.html" class="btn btn-bir">06/08/2022</a>
+        <a href="20220808.html" class="btn btn-bir">08/08/2022</a>
+        <a href="20220812.html" class="btn btn-bir">12/08/2022</a>
     `;
 
     $("div.buttons").html(buttonsMenu);
